@@ -112,6 +112,8 @@ $("label").inFieldLabels({ optionName:value });</pre>
 			</p>
 		<p><tt>fadeOpacity:</tt> <strong>Value between 0.1 and 1.0.</strong><br />When a field is focussed, its label is animated to this opacity. Defaults to 0.5</p>
 		<p><tt>fadeDuration:</tt> <strong>Time in milliseconds</strong><br />When an animation occurs, it uses this setting to determine duration. Defaults to 300</p>
+        <p>Additionally, the option "context" can be passed at instantiation time. This option provides a DOM node which will be used as the context when searching for inputs corresponding to the label that are to be inFieldLabeled. This is useful when you want to apply the inFieldLabel plugin to a DOM fragment that has not yet been added to the document.
+        </p>
 		<h2>Changelog</h2>
 		<p><strong>Version 0.1.2</strong></p>
 		<ul>

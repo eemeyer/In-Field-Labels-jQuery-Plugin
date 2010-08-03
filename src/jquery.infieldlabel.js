@@ -138,7 +138,8 @@
         "input#" + for_attr + "[type='url']," + 
         "input#" + for_attr + "[type='email']," + 
         "input#" + for_attr + "[type='password']," + 
-        "textarea#" + for_attr
+        "textarea#" + for_attr,
+        (options && options.context) || document
       );
 
       if ($field.length === 0) {
